@@ -6,9 +6,9 @@ contract TestVariableTypes {
 
     int _state = 20; // ----> State Variable
     
-    function LocalVariable() public pure { // ----> Local Variable
+    function LocalVariable() public pure {
     int _local;             
-    _local = 20;
+    _local = 20; // ----> Local Variable
 }
 
       address public _global = msg.sender; // ----> Global Variable
